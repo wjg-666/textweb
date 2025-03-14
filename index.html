@@ -5,5 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>面包商城</title>
 </head> 
-<h1>ssss</h1>
+<body>
+<div class="container">
+    <h1>欢迎来到面包商城</h1>
+    <div class="product">
+        <img src="面包图片/法棍.jpg" alt="经典法棍">
+        <h2>经典法棍</h2>
+        <p>新鲜出炉，口感绝佳。</p>
+        <p>价格: ￥10/个</p>
+</div>
+    <div class="product">
+        <img src="面包图片/奶酪面包.jpg" alt="奶酪面包">
+        <h2>奶酪面包</h2>
+        <p>搭配各种奶酪，满足您不同的口味需求。</p>
+        <p>价格: ￥15/个</p>
+    </div>
+    <div class="product">
+        <img src="面包图片/巧克力面包.jpg" alt="巧克力面包">
+        <h2>巧克力面包</h2>
+        <p>浓郁的巧克力香，甜而不腻。</p>
+        <p>价格: ￥20/个</p>
+    </div>
+
+    <h2>购买信息</h2>
+    <form action="#">
+        <div class="form-group">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">电子邮件：</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="address">地址：</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+            <label for="breadType">选择面包类型：</label>
+            <input type="text" id="breadType" name="breadType" placeholder="请输入您想要的面包类型" required>
+        </div>
+        <div class="form-group">
+            <label for="quantity">购买数量：</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+        </div>
+        <input type="submit" value="提交订单">
+    </form>
+</div>
+
+</body>
+</html>
+
     
